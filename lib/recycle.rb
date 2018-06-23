@@ -48,3 +48,8 @@ end
 #5. Define a method called `key_and_data` that takes a hash as an argument.
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
 #You should use the `each` method to iterate over your hash to print out that sentence
+def all_keys(hash)
+  hash.each do |keys, values|
+    puts "The #{keys} is #{values}"
+  end
+end
