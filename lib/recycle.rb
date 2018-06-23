@@ -18,7 +18,7 @@
 #1. Define a method `address`, that takes a hash as an argument.
 #This method should return the value of the address key in the hash.
 def address(hash)
-  
+  hash[keys]
 end
 
 #2. Define a method called `borough` that takes a hash as an argument.
